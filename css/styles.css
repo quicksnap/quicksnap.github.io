@@ -1,0 +1,61 @@
+body,
+html {
+  height: 100%;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(27, 39, 51);
+  display: flex;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+
+  margin: 10px;
+}
+
+.avoid-break {
+  page-break-inside: avoid;
+}
+
+#title {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+a,
+a:visited {
+  color: rgb(0, 112, 224);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  margin: 32px 0 12px 0;
+}
+
+h2 {
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 400;
+  margin: 21px 0 11px 0;
+}
+
+ul {
+  padding: 0;
+  margin-left: 24px;
+}
+
+li {
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 750px;
+}
+
+@page {
+  margin-top: 1.5cm;
+}
